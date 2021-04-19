@@ -5,20 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Space+Mono&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
     <title>404 Not Found</title>
   </head>
 
   <body>
     <header>
-      <h4>404 Not Found</h4>
+      <div class="logo">
+        <h4>404 Not Found</h4>
+      </div>
     </header>
     <main>
-      <div><h1>I have bad news for you</h1></div>
-      <div><p>The page you are looking for might be removed or is temporarily unavailable</p></div>
-      <div><button type="submit">Back to Homepage</button></div>
+      <div class="flex">
+        <img src="img/Scarecrow.png" alt="Scarecrow" class="scarecrow-img">
+        <div class="wrapper">
+          <h1>I have bad news for you</h1>
+          <p>The page you are looking for might be removed or is temporarily unavailable</p>
+          <button type="submit" class="btn-submit">Back to Homepage</button>
+        </div>
+      </div>
     </main>
-    <footer>
-      <p></p>
+    <footer class="footer">
+      <p>Created by <a href="https://github.com/maheshvpawar" target="_blank">Mahesh Pawar</a> - <a
+          href="https://devchallenges.io/" target="_blank">devChallenges.io</a></p>
     </footer>
   </body>
 
