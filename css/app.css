@@ -93,7 +93,7 @@ body {
 
 /* Mobile Layout*/
 
-@media(max-width: 800px) {
+@media(max-width: 1000px) {
     body {
         max-width: 375px;
         padding: 0;
