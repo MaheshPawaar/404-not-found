@@ -13,8 +13,8 @@ font-family: 'Space Mono', monospace;*/
 body {
     font-size: 16px;
     width: 100%;
-    height: 100vh;
     max-width: 1440px;
+    height: 100vh;
     display: grid;
 }
 
@@ -78,41 +78,55 @@ body {
     margin-bottom: 24px;
 }
 
-.footer a{
+.footer a {
     text-decoration: none;
     color: #BDBDBD;
 }
 
-.footer a:first-child{
+.footer a:first-child {
     font-weight: 700;
 }
 
-.footer a:last-child{
+.footer a:last-child {
     font-weight: 600;
 }
 
 /* Mobile Layout*/
-@media(max-width: 1000px){
-    body{
-        height:fit-content;
+
+@media(max-width: 800px) {
+    body {
+        max-width: 375px;
         padding: 0;
     }
     .content {
-        max-width: 375px;
         display: block;
         width: 100%;
+        margin-bottom: 24px;
     }
-    .logo{
+    .logo {
         margin: 20px 0 0 24px;
     }
-    .content-img{
+    .content-img {
         max-width: 286.83px;
         max-height: 238px;
-        margin: 77px 44px 0 44px;
+    }
+    .content-text h1 {
+        font-size: 48px;
+        max-width: 400px;
+        max-height: 140px;
+    }
+    .content-text p {
+        font-size: 18px;
+        max-width: 328px;
+        max-height: 81px;
+    }
+    .content-text button {
+        font-size: 14px;
+    }
+    .footer {
+        font-size: 14px;
+        text-align: center;
+        padding-bottom: 24px;
     }
 
-    .footer{
-        text-align: center;
-        margin: 24px 42px 24px 44px;
-    }
 }
