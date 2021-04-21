@@ -10,3 +10,86 @@ font-family: 'Space Mono', monospace;*/
 
 /* Desktop Layout*/
 
+body {
+    font-family: Space Mono, monospace;
+    font-size: 16px;
+    height: 100vh;
+}
+
+.logo {
+    font-family: Inconsolata, monospace;
+    font-size: 24px;
+    margin: 40px 77px 0;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.flex {
+    display: flex;
+    margin: 50px 77px;
+}
+
+.flex-img {
+    padding: 28px;
+}
+
+.flex-img img {
+    width: 90%;
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+.wrapper h1 {
+    font-size: 64px;
+    line-height: 96px;
+    font-weight: bold;
+    color: #333;
+    padding-bottom: 24px;
+}
+
+.wrapper p {
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: 36px;
+    padding-bottom: 36px;
+    color: #4f4f4f;
+}
+
+.wrapper button {
+    font-family: Space Mono, monospace;
+    font-weight: bold;
+    font-size: 14px;
+    font-style: normal;
+    padding: 24px 44px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #333333;
+    cursor: pointer;
+}
+
+.wrapper button:hover {
+    background-color: #4f4f4f;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #BDBDBD;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #BDBDBD;
+}
+
+.footer a:first-child {
+    font-weight: bold;
+}
+
+.footer a:last-child {
+    font-weight: 500;
+}
