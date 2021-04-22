@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://imgur.com/f9ggCJZ)
+![screenshot](https://i.imgur.com/f9ggCJZ.png])
 
 It is basic 404 Error page built with HTML, CSS.
 
