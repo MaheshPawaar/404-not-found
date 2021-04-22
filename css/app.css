@@ -142,4 +142,15 @@ body {
     letter-spacing: -0.035em;
     color: #333333;
   }
+
+  .wrapper p {
+    font-size: 1.02em;
+    letter-spacing: -0.035em;
+  }
+
+  .wrapper button {
+    font-size: 0.8em;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+  }
 }
