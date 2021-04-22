@@ -153,4 +153,10 @@ body {
     line-height: 21px;
     letter-spacing: -0.035em;
   }
+  .footer {
+    font-weight: 500;
+    font-size: 0.8em;
+    line-height: 0.9em;
+    text-align: center;
+  }
 }
